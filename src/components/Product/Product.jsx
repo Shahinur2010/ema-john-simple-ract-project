@@ -7,7 +7,6 @@ const Product = (props) => {
     const { img, seller, price, name, ratings } = props.product;
     const handleAddProduct = props.handleAddProduct;
 
-
     return (
         <div className='product'>
             <img src={img} alt="" />
